@@ -12,7 +12,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Welcome to Hi-Jean International's chemical efficiency testing program.");
+        Console.WriteLine("Welcome to Gareth's Chemical Testing Facility!");
 
         List<List<Chemical>> efficiencyRatingsLists = new List<List<Chemical>>();
 
@@ -52,7 +52,7 @@ class Program
 
                 Console.WriteLine("Efficiency rating for " + name + " is " + efficiencyRating);
                 Console.WriteLine();
-                System.Threading.Thread.Sleep(3000);
+                System.Threading.Thread.Sleep(2000  );
 
             }
 
